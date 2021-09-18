@@ -58,6 +58,11 @@ img{
     width: 50%;
     border-right: solid black;
     border-width: 1px;
+    margin-right: 50px;
+    float: left;
+}
+.right_half{
+    width: 100%;
 }
 i{
     background-color: darkslategrey;
@@ -89,29 +94,28 @@ i{
     font-size: 25px;
     text-align: justify;
 }
-h{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    padding-top: 20px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
+#h{
+   text-align: center;
+   font-family: sans-serif;
+   padding-bottom: 10px;
+   font-size: 30px;
+   font-weight: bold;
 }
 input{
-    width: 100%;
+    width: 270px;
 
 }
-table,tr,td{
-    border-color: blue;
-    border-width: 0px;
-    border-style: solid;
-}
 #space{
-    width: 250px;
+    width: 200px;
     font-size: 25px;
     font-family: sans-serif;
 }
-.slide{
-    width: 250px;
+#space1{
+    width: 270px;
+    font-size: 25px;
+    font-family: sans-serif;
 }
+.second{
+    width: 200px;
+}
+
