@@ -4,6 +4,11 @@ body{}
     margin-right: 150px;
     margin-left: 150px;
 }
+.main{
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+}
 #top_bg{
     background-color: darkslategrey;
     height: 310px;
@@ -54,15 +59,17 @@ img{
     padding-bottom: 10px;
     padding-top: 30px;
 }
-.half{
-    width: 50%;
-    border-right: solid black;
-    border-width: 1px;
-    margin-right: 50px;
-    float: left;
+.main_left{
+    width: 37%;
+    position: absolute;
 }
-.right_half{
-    width: 100%;
+.main_right{
+    width: 37%;
+    position: absolute;
+    border-left: solid black;
+    border-width: 1px;
+    margin-left: 38%;
+    padding-left: 30px;
 }
 i{
     background-color: darkslategrey;
@@ -88,7 +95,7 @@ i{
 }
 .para{
     padding-top: 10px;
-    padding-right: 30px;
+    padding-right: 10px;
     padding-bottom: 10px;
     font-family: sans-serif;
     font-size: 25px;
